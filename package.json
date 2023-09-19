@@ -6,8 +6,11 @@
   "bin": {
     "algorithms-project-69": "bin/nodejs-package.js"
   },
+  "simple-git-hooks": {
+    "pre-push": "make lint"
+  },
   "scripts": {
-    "test": "jest"
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
